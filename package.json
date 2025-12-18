@@ -13,10 +13,19 @@
     "docker:logs": "docker-compose logs",
     "docker:logs:tail": "docker-compose logs -f"
   },
-  "keywords": [],
+  "keywords": [
+    "dayjs",
+    "docker",
+    "express",
+    "javascript",
+    "markdown",
+    "node",
+    "postgresql",
+    "typescript"
+  ],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "**Internal Path**: `01_Projetos/ImageReader_Tool`",
   "dependencies": {
     "@google/generative-ai": "^0.17.1",
     "axios": "^1.7.5",
