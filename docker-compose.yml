@@ -1,11 +1,9 @@
-version: "3.7"
-
+version: '3'
 services:
-  pg:
-    image: bitnami/postgresql:latest
+  app:
+    build: .
     ports:
-      - "5432:5432"
-    environment:
-      - POSTGRES_USER=user
-      - POSTGRES_PASSWORD=password
-      - POSTGRES_DB=image-reader
+      - "4017:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
